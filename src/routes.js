@@ -40,7 +40,6 @@ import Dashboard from "layouts/dashboard";
 import WrlAccounts from "layouts/wrlaccounts";
 import ArenaAccounts from "layouts/arenaaccounts";
 import BusinessManagement from "layouts/businessmanagement";
-
 import Tables from "layouts/tables";
 import Billing from "layouts/billing";
 import RTL from "layouts/rtl";
