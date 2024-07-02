@@ -141,7 +141,7 @@ function Dashboard() {
           </MDBox>
           <MDBox p={2}>
             <Grid container spacing={3}>
-              <Grid item xs={12} sm={6} lg={3}>
+              {/* <Grid item xs={12} sm={6} lg={3}>
                 <MDButton variant="gradient" color="success" onClick={openSuccessSB} fullWidth>
                   success notification
                 </MDButton>
@@ -152,16 +152,16 @@ function Dashboard() {
                   info notification
                 </MDButton>
                 {renderInfoSB}
-              </Grid>
-              <Grid item xs={12} sm={6} lg={3}>
+              </Grid> */}
+              <Grid item xs={12} sm={6} lg={6}>
                 <MDButton variant="gradient" color="warning" onClick={openWarningSB} fullWidth>
-                  warning notification
+                  WRL: Flagged
                 </MDButton>
                 {renderWarningSB}
               </Grid>
-              <Grid item xs={12} sm={6} lg={3}>
+              <Grid item xs={12} sm={6} lg={6}>
                 <MDButton variant="gradient" color="error" onClick={openErrorSB} fullWidth>
-                  error notification
+                  ARENA: Flagged
                 </MDButton>
                 {renderErrorSB}
               </Grid>
